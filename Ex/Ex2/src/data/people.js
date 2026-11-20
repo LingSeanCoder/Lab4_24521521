@@ -1,0 +1,42 @@
+export const PEOPLE = Object.freeze([
+  Object.freeze({
+    id: '1',
+    name: 'Elena Vance',
+    role: 'Principal Frontend Architect',
+    department: 'Engineering',
+    email: 'elena.vance@example.com',
+    bio: 'Specializes in scalable React architectures and design systems. Leads frontend performance initiatives across core web platforms.',
+  }),
+  Object.freeze({
+    id: '2',
+    name: 'Marcus Chen',
+    role: 'Senior Product Designer',
+    department: 'Design',
+    email: 'marcus.chen@example.com',
+    bio: 'Focuses on accessible interface design and responsive layout systems. Collaborates closely with engineering teams to craft intuitive user journeys.',
+  }),
+  Object.freeze({
+    id: '3',
+    name: 'Sophia Al-Mansoor',
+    role: 'Staff Backend Engineer',
+    department: 'Engineering',
+    email: 'sophia.almansoor@example.com',
+    bio: 'Designs distributed APIs and high-throughput data pipelines. Passionate about system reliability and developer tooling.',
+  }),
+  Object.freeze({
+    id: '4',
+    name: 'David Okafor',
+    role: 'Engineering Manager',
+    department: 'Platform',
+    email: 'david.okafor@example.com',
+    bio: 'Guides cross-functional teams delivering cloud infrastructure and CI/CD workflows. Advocates for clear documentation and pragmatic agile practices.',
+  }),
+  Object.freeze({
+    id: '5',
+    name: 'Hannah Lindqvist',
+    role: 'QA Automation Lead',
+    department: 'Quality Assurance',
+    email: 'hannah.lindqvist@example.com',
+    bio: 'Builds end-to-end testing frameworks and automated accessibility audits. Ensures every release meets strict reliability and usability standards.',
+  }),
+]);
